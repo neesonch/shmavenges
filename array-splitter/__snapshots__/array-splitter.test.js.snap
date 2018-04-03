@@ -72,3 +72,12 @@ Array [
   ],
 ]
 `;
+
+exports[`#splitArray into negative arrays 1`] = `Array []`;
+
+exports[`#splitArray when given empty array 1`] = `
+Array [
+  Array [],
+  Array [],
+]
+`;
