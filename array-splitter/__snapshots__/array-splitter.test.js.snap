@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#splitArray into 0 arrays 1`] = `Array []`;
+
+exports[`#splitArray into 1 array 1`] = `
+Array [
+  Array [
+    "Mercury",
+    "Venus",
+    "Earth",
+    "Mars",
+    "Jupiter",
+    "Saturn",
+    "Uranus",
+    "Neptune",
+    "Pluto (It's still a planet to me, dammit)",
+  ],
+]
+`;
+
+exports[`#splitArray into more arrays than original items 1`] = `
+Array [
+  Array [
+    "Mercury",
+  ],
+  Array [
+    "Venus",
+  ],
+  Array [
+    "Earth",
+  ],
+  Array [
+    "Mars",
+  ],
+  Array [
+    "Jupiter",
+  ],
+  Array [
+    "Saturn",
+  ],
+  Array [
+    "Uranus",
+  ],
+  Array [
+    "Neptune",
+  ],
+  Array [
+    "Pluto (It's still a planet to me, dammit)",
+  ],
+  Array [],
+]
+`;
+
+exports[`#splitArray into multiple arrays 1`] = `
+Array [
+  Array [
+    "Mercury",
+    "Jupiter",
+    "Pluto (It's still a planet to me, dammit)",
+  ],
+  Array [
+    "Venus",
+    "Saturn",
+  ],
+  Array [
+    "Earth",
+    "Uranus",
+  ],
+  Array [
+    "Mars",
+    "Neptune",
+  ],
+]
+`;
