@@ -1,0 +1,1 @@
+Exercise: Given an array of data and an integer N, split the given array into N arrays such that the first item of the given array is sorted into the first returned array, the second item into the second returned array, etc
