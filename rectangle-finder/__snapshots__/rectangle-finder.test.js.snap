@@ -1,3 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`test 1`] = `true`;
+exports[`Rectangle top left 1`] = `
+Object {
+  "height": 3,
+  "start": Object {
+    "col": 0,
+    "row": 0,
+  },
+  "width": 4,
+}
+`;
+
+exports[`Rectangle top right 1`] = `
+Object {
+  "height": 3,
+  "start": Object {
+    "col": 6,
+    "row": 0,
+  },
+  "width": 4,
+}
+`;
