@@ -21,8 +21,8 @@ findRectangle = (rows) =>{
 				}	
 			}
 		});
-		rectangle.height = (rectangleBottom + 1 - rectangle.start.row);
 	});
+	rectangle.height = (rectangleBottom + 1 - rectangle.start.row);
 	return rectangle;
 }
 

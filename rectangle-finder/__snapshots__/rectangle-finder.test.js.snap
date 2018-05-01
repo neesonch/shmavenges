@@ -1,5 +1,60 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Rectangle border 1`] = `
+Object {
+  "height": 10,
+  "start": Object {
+    "col": 0,
+    "row": 0,
+  },
+  "width": 10,
+}
+`;
+
+exports[`Rectangle bottom left 1`] = `
+Object {
+  "height": 3,
+  "start": Object {
+    "col": 0,
+    "row": 7,
+  },
+  "width": 4,
+}
+`;
+
+exports[`Rectangle bottom right 1`] = `
+Object {
+  "height": 3,
+  "start": Object {
+    "col": 6,
+    "row": 7,
+  },
+  "width": 4,
+}
+`;
+
+exports[`Rectangle central 1`] = `
+Object {
+  "height": 3,
+  "start": Object {
+    "col": 3,
+    "row": 4,
+  },
+  "width": 4,
+}
+`;
+
+exports[`Rectangle single point 1`] = `
+Object {
+  "height": -3,
+  "start": Object {
+    "col": 3,
+    "row": 4,
+  },
+  "width": 1,
+}
+`;
+
 exports[`Rectangle top left 1`] = `
 Object {
   "height": 3,

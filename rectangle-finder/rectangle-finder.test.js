@@ -21,3 +21,11 @@ test('Rectangle bottom right', ()=>{
 test('Rectangle central', ()=>{
 	expect(rectangleFinder(testRectangles.rectangleCentral)).toMatchSnapshot();
 })
+
+test('Rectangle border', ()=>{
+	expect(rectangleFinder(testRectangles.rectangleBorder)).toMatchSnapshot();
+})
+
+test('Rectangle single point', ()=>{
+	expect(rectangleFinder(testRectangles.rectangleSinglePoint)).toMatchSnapshot();
+})
