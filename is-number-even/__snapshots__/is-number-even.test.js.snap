@@ -1,3 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Even float 1`] = `true`;
+
 exports[`Even integer 1`] = `true`;
+
+exports[`Uneven float 1`] = `false`;
+
+exports[`Uneven integer 1`] = `false`;

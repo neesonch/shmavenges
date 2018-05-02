@@ -1,0 +1,1 @@
+Exercise: Check whether a number is even or odd without using the modulus (%) operator.
